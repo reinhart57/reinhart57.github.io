@@ -1,0 +1,59 @@
+/* Brian Parker
+	4/13/20 */
+
+	@font-face {
+		font-family: 'quicksandregular';
+		src: url('../fonts/quicksand-regular-webfont.woff2') format('woff2'),
+			 url('../fonts/quicksand-regular-webfont.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+	
+	}
+
+#outerwrapper {
+	width: 70vw;
+	margin-left: auto;
+	margin-right: auto;
+} 
+.floatleft { 
+	float: left;
+	margin-right: 3%;
+}
+.floatright {
+	float: right;
+	margin-left: 3%;
+}
+main, footer { 
+	clear: both;
+}
+body {
+	background-color: #B8D1EB;
+	color: #000000;
+	font-family: Times New Roman, Times, and serif;
+}
+main {
+	background-color: #C5A98B;
+	padding: 10px;
+}
+ul {
+	list-style-type: none;
+}
+h1 {
+	font-family: 'Righteous', cursive;
+	font-size: 3.3rem;
+}
+h2 {
+	font-family: 'quicksandregular';
+	/* font-weight: normal; already specified in line #9 */
+	font-style: italic;
+}
+#tomatoBullet {
+	list-style-image: url('../images/tomato.png');
+}
+footer {
+	font-size: 0.785em;
+	text-align: center;
+	background-color: rgb(82, 82, 0);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
