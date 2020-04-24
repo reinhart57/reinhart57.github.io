@@ -1,0 +1,132 @@
+/* Brian Parker, 04/23/20 */
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* FORM STYLE */
+
+#form {
+    margin: 10vh 30vw;
+    padding: 10px 50px 30px 50px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: 1.5rem;
+    background-color: darkslategrey;
+    border-radius: 40px;
+    border: 3px solid #ffffff;
+} 
+hr {
+    width: 80%;
+    color: #ffffff;
+}
+.button {
+    font-size: 1em;
+    font-family: 'Lobster', cursive, sans-serif;
+    margin-top: 15px;;
+}
+.fmargin {
+    margin-top: 20px;
+}
+/* MAIN SECTIONS */
+
+#wrapper {
+    box-sizing: border-box;
+    position: relative;
+    background-color: darkslategrey;
+	margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+#landing {
+    background-image: url("../images/forest.jpg");
+    background-color: darkslategrey;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mainDiv {
+    color: black;
+    margin: 100px 300px 700px 200px;
+}
+.gradient {
+    background: #403B4A;  
+    background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);  
+    background: linear-gradient(to right, #E7E9BB, #403B4A); 
+}
+.quote {
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 20px; 
+    border: 3px solid #ffffff;
+    border-radius: 40px;
+    font-family: 'alex_brushregular', Helvetica, sans-serif;
+    font-size: 3.3rem;
+    margin: 50vh 35vh 0 35vh;
+}
+footer {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #ffffff;
+	text-align: center;
+    background-color: #2f4f4f;
+    opacity: 85%;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+/* NAV BAR */
+
+.logo {
+    width: 125px;
+    height: 125px;
+    margin: 0 0 20px 100px;
+    padding: 0;
+    float: left;
+    position: absolute;
+}
+.navNew {
+    background-color: #2f4f4f;
+    color: #ffffff;
+    list-style: none;
+    text-align: center;
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: 1.5rem;
+    padding: 15px 0 15px 0;
+    margin: 0;
+}
+.navNew > li {
+    display: inline-block;
+    padding: 0 35px 0 35px;
+}
+.navNew > li > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.navNew > li > a:hover {
+    color: #c1c1c1;
+}
+.navNew > li > a:active {
+    color: rgb(123, 136, 123);
+}
+nav {
+    position: relative;
+    opacity: 85%;
+}
+
+
