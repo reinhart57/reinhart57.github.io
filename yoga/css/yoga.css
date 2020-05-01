@@ -1,0 +1,79 @@
+/* Brian Parker, 05/01/20 */
+
+body { 
+	background-color: #F5F5F5;
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header { 
+	background-color: #9BC1C2; 
+    background-image: url('../images/lilyheader.jpg');
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+h1 { 
+	text-indent: 1em;
+    line-height: 400%; 
+}
+
+nav { 
+     font-weight: bold; 
+}
+
+footer { 
+	background-color: #9BC1C2; 
+    font-size: small;
+	text-align: center;
+	font-style: italic;
+	padding: .5em;
+}
+
+/* My CSS Added */
+
+main > ul > li {
+	list-style-image: url('../images/yogabullet.png');
+	margin-left: 3em;
+}
+.schedule {
+	border-collapse: collapse;
+	border: solid black 1px;
+	width: 100%;
+	margin-bottom: .5em;
+}
+td {
+	border: solid black 1px;
+	text-align: center;
+}
+address {
+	margin-bottom: .5em;
+}
+nav > ul > li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+.navfix {
+	margin: 0;
+	padding: 0;
+}
+
+/* BREAK for mobile to desktop */
+
+@media (max-width: 640px) {
+	nav > ul > li {
+		display: block;
+	}
+	header { 
+		background-image: none;
+	}
+	body {
+		background-image: url('../images/yogamobile.png');
+	}
+	img {
+		display: none;
+	}
+
+}
