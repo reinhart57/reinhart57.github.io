@@ -1,0 +1,66 @@
+
+.form {
+    width: 100%;
+    padding-bottom: $padd;
+
+    .form__heading {
+        width: 100%;
+        text-shadow: 0.25rem 0.25rem $shadow-color;
+        color: $form-head;
+        background: $color-heading;
+        line-height: 5rem;
+        padding: $padd;
+    }
+
+    .form__label {
+        color: $div-background;
+        display: block;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-top: $padd;
+    }
+
+    .form__input {
+        @include borders;
+        width: 100%;
+        padding: $padd;
+        background: $div-background;
+        color: $input;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 2.75rem;
+
+        &:focus {
+            background: $color-heading;
+            border: $color-heading;
+            color: $form-head;
+        }
+        &:invalid {
+            background: $invalid;
+            border: $form-head;
+            color: $form-head;
+        }
+    }
+
+    .form__textarea {
+        @include borders;
+        width: 100%;
+        color: $color-heading;
+        background: $text-area;
+        outline: none;
+        padding: $padd;
+        margin-bottom: $marg;
+    }
+
+}
+
+
+     
+
+
+
+
+
+
+
+
