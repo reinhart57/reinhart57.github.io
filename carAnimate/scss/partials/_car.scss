@@ -1,0 +1,43 @@
+.car {
+  height: 60px;
+  width: 200px;
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  background-image: URL("../images/car.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 99;
+  animation: drive 10s infinite linear forwards;
+
+  .wheel {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    bottom: -9px;
+    background-image: URL("../images/wheel.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: spin .5s infinite linear;
+    
+    &.back {
+      left: 28px;
+    }
+    &.front {
+      left: 155px;
+    }
+  }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg);}
+  to { transform: rotate(359deg);}
+}
+
+@keyframes drive {
+  0% { transform: translateX(0px);}
+  50% { transform: translateX(500px);}
+  100% { transform: translateX(1000px);}
+}
